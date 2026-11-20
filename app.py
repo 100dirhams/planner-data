@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # De URL van je API op kdg-json-server (zonder / op het einde).
 # Vervang dit door je eigen URL, bv. die je in Postman gebruikt.
-API_URL = "https://VUL-HIER-JE-KDG-JSON-SERVER-URL-IN"
+API_URL = "https://kdg-json-server.vercel.app/100dirhams/planner-data"
 
 
 def haal_op(pad):
