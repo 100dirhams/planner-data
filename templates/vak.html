@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}{{ vak.naam }} – Planner{% endblock %}
+
+{% block content %}
+<h1>{{ vak.naam }}</h1>
+<p>Docent: {{ vak.docent }}</p>
+
+{% if taken %}
+<table>
+    <thead>
+        <tr>
+            <th>Deadline</th>
+            <th>Taak</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for taak in taken %}
+        <tr class="{% if taak.te_laat %}te-laat{% elif taak.klaar %}klaar{% endif %}">
+            <td>{{ taak.deadline }}</td>
+            <td><a href="{{ url_for('taak_detail', taak_id=taak.id) }}">{{ taak.titel }}</a></td>
+            <td>
+                {% if taak.klaar %}✅ Klaar{% elif taak.te_laat %}⚠️ Te laat{% else %}⏳ Bezig{% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>Geen taken voor dit vak. 🎉</p>
+{% endif %}
+
+<p><a href="{{ url_for('overzicht') }}">← Terug naar het overzicht</a></p>
+{% endblock %}

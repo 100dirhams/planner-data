@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}{{ taak.titel }} – Planner{% endblock %}
+
+{% block content %}
+<h1>{{ taak.titel }}</h1>
+
+{% if taak.te_laat %}
+<p class="melding">⚠️ De deadline is voorbij en deze taak is nog niet klaar!</p>
+{% endif %}
+
+<dl>
+    <dt>Vak</dt>
+    <dd>
+        {% if taak.vak %}
+        <a href="{{ url_for('vak_detail', vak_id=taak.vak.id) }}">{{ taak.vak.naam }}</a>
+        (docent: {{ taak.vak.docent }})
+        {% else %}
+        Onbekend vak
+        {% endif %}
+    </dd>
+
+    <dt>Deadline</dt>
+    <dd>{{ taak.deadline }}</dd>
+
+    <dt>Status</dt>
+    <dd>{% if taak.klaar %}✅ Klaar{% else %}⏳ Nog niet klaar{% endif %}</dd>
+
+    <dt>Id</dt>
+    <dd>{{ taak.id }}</dd>
+</dl>
+
+<p><a href="{{ url_for('overzicht') }}">← Terug naar het overzicht</a></p>
+{% endblock %}

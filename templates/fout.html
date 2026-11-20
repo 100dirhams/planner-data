@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}API niet bereikbaar – Planner{% endblock %}
+
+{% block content %}
+<h1>Oeps, de API antwoordt niet</h1>
+<p>De gegevens konden niet worden opgehaald. Probeer het straks opnieuw.</p>
+<p><a href="{{ url_for('overzicht') }}">← Terug naar het overzicht</a></p>
+{% endblock %}

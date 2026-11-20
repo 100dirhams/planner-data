@@ -1,0 +1,69 @@
+body {
+    font-family: system-ui, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background: #f7f7f9;
+    color: #222;
+}
+
+header {
+    padding: 16px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #222;
+}
+
+a {
+    color: #1a5fb4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #eee;
+}
+
+/* Taken over hun deadline die nog niet klaar zijn */
+tr.te-laat {
+    background: #fde2e2;
+    font-weight: bold;
+}
+
+tr.klaar {
+    color: #888;
+}
+
+.melding {
+    background: #fde2e2;
+    border-left: 4px solid #c01c28;
+    padding: 8px 12px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 16px 0;
+    border-top: 1px solid #ddd;
+    font-size: 0.85em;
+    color: #666;
+}

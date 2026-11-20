@@ -1,0 +1,21 @@
+{
+  "vakken": [
+    {"id": 1, "naam": "Informatica voor IoT 2", "docent": "VUL IN"},
+    {"id": 2, "naam": "Elektronica 2", "docent": "VUL IN"},
+    {"id": 3, "naam": "Netwerken", "docent": "VUL IN"},
+    {"id": 4, "naam": "Wiskunde 2", "docent": "VUL IN"}
+  ],
+  "taken": [
+    {"id": 1, "titel": "Opdracht 3a afwerken", "vak_id": 1, "deadline": "2026-11-27", "klaar": false},
+    {"id": 2, "titel": "Oefening JSON-data ophalen", "vak_id": 1, "deadline": "2026-11-13", "klaar": true},
+    {"id": 3, "titel": "Opdracht 3b: eigen API", "vak_id": 1, "deadline": "2026-12-04", "klaar": false},
+    {"id": 4, "titel": "Labo-verslag opamps", "vak_id": 2, "deadline": "2026-11-18", "klaar": false},
+    {"id": 5, "titel": "Schakeling simuleren in Falstad", "vak_id": 2, "deadline": "2026-11-25", "klaar": false},
+    {"id": 6, "titel": "Voorbereiding labo 6", "vak_id": 2, "deadline": "2026-12-02", "klaar": false},
+    {"id": 7, "titel": "Packet Tracer-oefening subnetting", "vak_id": 3, "deadline": "2026-11-16", "klaar": true},
+    {"id": 8, "titel": "Quiz OSI-model", "vak_id": 3, "deadline": "2026-11-24", "klaar": false},
+    {"id": 9, "titel": "Oefenreeks integralen", "vak_id": 4, "deadline": "2026-11-19", "klaar": false},
+    {"id": 10, "titel": "Tussentijdse test herhalen", "vak_id": 4, "deadline": "2026-12-08", "klaar": false},
+    {"id": 11, "titel": "Groepswerk netwerkontwerp", "vak_id": 3, "deadline": "2026-12-11", "klaar": false}
+  ]
+}
