@@ -1,21 +1,320 @@
 {
   "vakken": [
-    {"id": 1, "naam": "Informatica voor IoT 2", "docent": "VUL IN"},
-    {"id": 2, "naam": "Elektronica 2", "docent": "VUL IN"},
-    {"id": 3, "naam": "Netwerken", "docent": "VUL IN"},
-    {"id": 4, "naam": "Wiskunde 2", "docent": "VUL IN"}
+    {
+      "id": 1,
+      "naam": "[Mijn opleiding] Internet of Things",
+      "docent": "Katrien Bernard, Simonne Boden, Farrah Daponte e.a."
+    },
+    {
+      "id": 2,
+      "naam": "Embedded systemen : Connecties",
+      "docent": "Thomas De Witte, Petia Minnebach, Silke Ruebens e.a."
+    },
+    {
+      "id": 3,
+      "naam": "Informatica voor IoT 1 (Sem 1)",
+      "docent": "Petia Minnebach, Silke Ruebens, Liesje Tops e.a."
+    },
+    {
+      "id": 4,
+      "naam": "Informatica voor IoT 2 (Sem 1)",
+      "docent": "Petia Minnebach, Vincent Peters, Silke Ruebens e.a."
+    }
   ],
   "taken": [
-    {"id": 1, "titel": "Opdracht 3a afwerken", "vak_id": 1, "deadline": "2026-11-27", "klaar": false},
-    {"id": 2, "titel": "Oefening JSON-data ophalen", "vak_id": 1, "deadline": "2026-11-13", "klaar": true},
-    {"id": 3, "titel": "Opdracht 3b: eigen API", "vak_id": 1, "deadline": "2026-12-04", "klaar": false},
-    {"id": 4, "titel": "Labo-verslag opamps", "vak_id": 2, "deadline": "2026-11-18", "klaar": false},
-    {"id": 5, "titel": "Schakeling simuleren in Falstad", "vak_id": 2, "deadline": "2026-11-25", "klaar": false},
-    {"id": 6, "titel": "Voorbereiding labo 6", "vak_id": 2, "deadline": "2026-12-02", "klaar": false},
-    {"id": 7, "titel": "Packet Tracer-oefening subnetting", "vak_id": 3, "deadline": "2026-11-16", "klaar": true},
-    {"id": 8, "titel": "Quiz OSI-model", "vak_id": 3, "deadline": "2026-11-24", "klaar": false},
-    {"id": 9, "titel": "Oefenreeks integralen", "vak_id": 4, "deadline": "2026-11-19", "klaar": false},
-    {"id": 10, "titel": "Tussentijdse test herhalen", "vak_id": 4, "deadline": "2026-12-08", "klaar": false},
-    {"id": 11, "titel": "Groepswerk netwerkontwerp", "vak_id": 3, "deadline": "2026-12-11", "klaar": false}
+    {
+      "id": 1,
+      "titel": "OBSERVATIE: Veilig werken tijdens projectopdracht \"Lokale opstelling en behuizing\"",
+      "vak_id": 2,
+      "deadline": "2026-10-02",
+      "klaar": true
+    },
+    {
+      "id": 2,
+      "titel": "VOORBEREIDING: Installatie WSL (Windows Subsystem for Linux)",
+      "vak_id": 3,
+      "deadline": "2026-10-02",
+      "klaar": false
+    },
+    {
+      "id": 3,
+      "titel": "OBSERVATIE: Workshop CLI en Linux commando's",
+      "vak_id": 3,
+      "deadline": "2026-10-07",
+      "klaar": true
+    },
+    {
+      "id": 4,
+      "titel": "📖 Kennistoets:  HTML & CSS",
+      "vak_id": 4,
+      "deadline": "2026-10-08",
+      "klaar": false
+    },
+    {
+      "id": 5,
+      "titel": "VOORBEREIDING: afwerken oefeningen observatie",
+      "vak_id": 3,
+      "deadline": "2026-10-09",
+      "klaar": false
+    },
+    {
+      "id": 6,
+      "titel": "VOORBEREIDING: Programmeren in Python",
+      "vak_id": 3,
+      "deadline": "2026-10-14",
+      "klaar": false
+    },
+    {
+      "id": 7,
+      "titel": "👁️‍🗨️ Observatie: netwerktools",
+      "vak_id": 4,
+      "deadline": "2026-10-15",
+      "klaar": true
+    },
+    {
+      "id": 8,
+      "titel": "Test Casus",
+      "vak_id": 1,
+      "deadline": "2026-10-21",
+      "klaar": false
+    },
+    {
+      "id": 9,
+      "titel": "OBSERVATIE & CASUSOPDRACHT: BLE",
+      "vak_id": 2,
+      "deadline": "2026-10-23",
+      "klaar": true
+    },
+    {
+      "id": 10,
+      "titel": "📖 HERKANSING Kennistoets:  HTML & CSS ",
+      "vak_id": 4,
+      "deadline": "2026-10-26",
+      "klaar": true
+    },
+    {
+      "id": 11,
+      "titel": "OBSERVATIE & CASUSOPDRACHT: Basis programmeren",
+      "vak_id": 3,
+      "deadline": "2026-10-27",
+      "klaar": true
+    },
+    {
+      "id": 12,
+      "titel": "OBSERVATIE & CASUSOPDRACHT: BLE - Herhalingsweek",
+      "vak_id": 2,
+      "deadline": "2026-10-28",
+      "klaar": true
+    },
+    {
+      "id": 13,
+      "titel": "PROJECTOPDRACHT: Lokale opstelling en behuizing",
+      "vak_id": 2,
+      "deadline": "2026-11-01",
+      "klaar": true
+    },
+    {
+      "id": 14,
+      "titel": "PROJECTOPDRACHT: Bluetooth Classic integratie",
+      "vak_id": 2,
+      "deadline": "2026-11-01",
+      "klaar": true
+    },
+    {
+      "id": 15,
+      "titel": "OPDRACHT: Blackboxmodel met Linux commando's en Python",
+      "vak_id": 3,
+      "deadline": "2026-11-01",
+      "klaar": true
+    },
+    {
+      "id": 16,
+      "titel": "✅ Opdracht 2: jouw portfolio als dynamische website met Flask",
+      "vak_id": 4,
+      "deadline": "2026-11-01",
+      "klaar": true
+    },
+    {
+      "id": 17,
+      "titel": "✅ Functies en dictionaries op oefenplatform.app",
+      "vak_id": 4,
+      "deadline": "2026-11-01",
+      "klaar": true
+    },
+    {
+      "id": 18,
+      "titel": "⚠️ Reminder:  Finale versies opdrachten + herkansing kennistoetsen:  Week 1-4",
+      "vak_id": 4,
+      "deadline": "2026-11-01",
+      "klaar": false
+    },
+    {
+      "id": 19,
+      "titel": "✅ Python-recap op oefenplatform.app",
+      "vak_id": 4,
+      "deadline": "2026-11-01",
+      "klaar": true
+    },
+    {
+      "id": 20,
+      "titel": "✅ Opdracht 2b: je portfolio online",
+      "vak_id": 4,
+      "deadline": "2026-11-01",
+      "klaar": true
+    },
+    {
+      "id": 21,
+      "titel": "✅ Debuggen op oefenplatform.app",
+      "vak_id": 4,
+      "deadline": "2026-11-01",
+      "klaar": true
+    },
+    {
+      "id": 22,
+      "titel": "TOETS: Soorten informatie en datatypes in Python",
+      "vak_id": 3,
+      "deadline": "2026-11-13",
+      "klaar": true
+    },
+    {
+      "id": 23,
+      "titel": "TOETS: Linux commando's",
+      "vak_id": 3,
+      "deadline": "2026-11-13",
+      "klaar": false
+    },
+    {
+      "id": 24,
+      "titel": "✅ JSON en de Gaming API op oefenplatform.app",
+      "vak_id": 4,
+      "deadline": "2026-11-15",
+      "klaar": false
+    },
+    {
+      "id": 25,
+      "titel": "📖 Kennistoets: RESTful API's",
+      "vak_id": 4,
+      "deadline": "2026-11-17",
+      "klaar": false
+    },
+    {
+      "id": 26,
+      "titel": "✅ Casusopdracht 1: van gegevens naar dashboard",
+      "vak_id": 4,
+      "deadline": "2026-11-19",
+      "klaar": true
+    },
+    {
+      "id": 27,
+      "titel": "OBSERVATIE & GROEPSOPDRACHT: Wi-Fi Mesh netwerken",
+      "vak_id": 2,
+      "deadline": "2026-11-20",
+      "klaar": true
+    },
+    {
+      "id": 28,
+      "titel": "VOORBEREIDING voor OBSERVATIE Wi-Fi Mesh netwerken: TaskScheduler bibliotheek",
+      "vak_id": 2,
+      "deadline": "2026-11-20",
+      "klaar": false
+    },
+    {
+      "id": 29,
+      "titel": "TOETS: Naamgeving, stacktraces en beslissingen",
+      "vak_id": 3,
+      "deadline": "2026-11-20",
+      "klaar": true
+    },
+    {
+      "id": 30,
+      "titel": "✅ Opdracht 3a: je planner, data en site",
+      "vak_id": 4,
+      "deadline": "2026-11-20",
+      "klaar": false
+    },
+    {
+      "id": 31,
+      "titel": "OPDRACHT: Stroomdiagrammen voorwaardelijke uitvoering",
+      "vak_id": 3,
+      "deadline": "2026-11-22",
+      "klaar": false
+    },
+    {
+      "id": 32,
+      "titel": "OBSERVATIE & CASUSOPDRACHT: Voorwaardelijke uitvoeringen",
+      "vak_id": 3,
+      "deadline": "2026-11-25",
+      "klaar": false
+    },
+    {
+      "id": 33,
+      "titel": "OBSERVATIE & GROEPSOPDRACHT: LoRa P2P en LoRaWAN",
+      "vak_id": 2,
+      "deadline": "2026-11-27",
+      "klaar": false
+    },
+    {
+      "id": 34,
+      "titel": "PROJECTOPDRACHT: Wi-Fi integratie",
+      "vak_id": 2,
+      "deadline": "2026-11-29",
+      "klaar": false
+    },
+    {
+      "id": 35,
+      "titel": "OPDRACHT: Stroomdiagrammen herhalingen",
+      "vak_id": 3,
+      "deadline": "2026-11-29",
+      "klaar": false
+    },
+    {
+      "id": 36,
+      "titel": "TOETS: PAN-, (W)LAN- en LPWAN-netwerken",
+      "vak_id": 2,
+      "deadline": "2026-12-02",
+      "klaar": false
+    },
+    {
+      "id": 37,
+      "titel": "OBSERVATIE & CASUSOPDRACHT: Herhalingen en lijsten",
+      "vak_id": 3,
+      "deadline": "2026-12-02",
+      "klaar": false
+    },
+    {
+      "id": 38,
+      "titel": "EXAMEN: B-VCA",
+      "vak_id": 2,
+      "deadline": "2026-12-04",
+      "klaar": false
+    },
+    {
+      "id": 39,
+      "titel": "OBSERVATIE & CASUSOPDRACHT: Programmeren in Python",
+      "vak_id": 3,
+      "deadline": "2026-12-09",
+      "klaar": false
+    },
+    {
+      "id": 40,
+      "titel": "OBSERVATIE & CASUSOPDRACHT: Linux commando's",
+      "vak_id": 3,
+      "deadline": "2026-12-09",
+      "klaar": false
+    },
+    {
+      "id": 41,
+      "titel": "⚠️ Reminder:  Finale versies opdrachten week 6 - 10",
+      "vak_id": 4,
+      "deadline": "2026-12-11",
+      "klaar": false
+    },
+    {
+      "id": 42,
+      "titel": "OPDRACHT: Opladen B-VCA certificaat",
+      "vak_id": 2,
+      "deadline": "2027-01-22",
+      "klaar": true
+    }
   ]
 }
